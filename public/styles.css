@@ -1,0 +1,45 @@
+* {
+    margin: 0 0 0 0;
+}
+html {
+    font-family: "Montserrat", sans-serif;
+}
+.header {
+    font-family: "Mclaren", sans-serif;
+    color: white;
+    background-color: gold;
+    height: 50px;
+    text-align: left;
+    margin: auto;
+    padding: 0px 0 0 16px;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+.footer {
+    color: lightgrey;
+    bottom: 5px;
+    position: absolute;
+    width: 100%;
+    text-align: center; 
+}
+.note {
+    font-family: "Mclaren", sans-serif;
+    background-color: darkseagreen;
+    width: 240px;
+    height: 180px;
+    margin: 20px;
+    border-radius: 10px;
+    float: left;
+    box-shadow: 5px 5px 5px lightgrey;
+}
+.note dl {
+    text-align: center;
+    margin: 10px;
+}
+.note dt {
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+.note dd {
+    margin: 10px;
+}
+
