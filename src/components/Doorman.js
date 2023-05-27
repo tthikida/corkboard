@@ -6,16 +6,7 @@ import Login from "./Login";
 var b = false;
 
 function Doorman(){
-    if (b) {
-        return (
-            <Homepage />
-        )
-    }
-    else {
-        return (
-            <Login />
-        )
-    }
+    if (b) { return <Homepage /> }
+    else   { return <Login />    }
 }
-
 export default Doorman;

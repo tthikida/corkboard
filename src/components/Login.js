@@ -9,7 +9,7 @@ function Login(){
             <form className={"loginForm"}>
                 <input type={"text"} placeholder={"Username"}/>
                 <input type={"password"} placeholder={"password"}/>
-                <button type={"submit"}>Login</button>
+                <button type={"submit"}><h1>Login</h1></button>
             </form>
         </div>
     );
