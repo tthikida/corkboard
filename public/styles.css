@@ -4,6 +4,7 @@
 }
 html {
     font-family: "Montserrat", sans-serif;
+    background-color: cadetblue;
 }
 .header {
     font-family: "Mclaren", sans-serif;
@@ -48,14 +49,12 @@ html {
 }
 .loginContainer {
     width: 100%;
-    background-color: green;
     text-align: center;
     margin: 10% auto;
     padding: 80px 0;
 }
 .loginForm {
-    /*width: 150px;*/
-    background-color: green;
+    background-color: cadetblue;
     padding: 20px;
 }
 .loginForm input {
@@ -63,10 +62,15 @@ html {
     height: 40px;
     margin: 0 auto 10px auto;
     display: block;
+    text-align: center;
+    border-radius: 5px;
+    
 }
 .loginForm button {
     width: 250px;
     height: 40px;
+    border-radius: 5px;
+    background-color: lightgrey;
 }
 .loginForm h1 {
     font-weight: 200;

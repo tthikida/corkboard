@@ -1,12 +1,12 @@
 import React from "react";
 import Homepage from "./Homepage"
 import Login from "./Login";
+import Register from "./Register";
 
 
-var b = false;
+var isUserRegistered = false;
 
 function Doorman(){
-    if (b) { return <Homepage /> }
-    else   { return <Login />    }
+    return isUserRegistered ? (<Login />) : (<Register />)
 }
 export default Doorman;
