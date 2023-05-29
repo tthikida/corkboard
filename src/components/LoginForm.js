@@ -9,9 +9,7 @@ function LoginForm(props) {
                 <Input type={"text"} placeholder={"Username"} />
                 <Input type={"password"} placeholder={"Password"} />
                 {props.isRegistered ? null : < Input type={"password"} placeholder={"Password"}/>} 
-                <button type={"submit"}>
-                    <h1>{props.isRegistered ? "Login" : "Register"}</h1>
-                </button>
+                <button style={{backgroundColor: "red"}} type={"submit"}> <h1>{props.isRegistered ? "Login" : "Register"} </h1></button>
             </form>
         </div>
     );
