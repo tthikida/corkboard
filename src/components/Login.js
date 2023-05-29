@@ -1,25 +1,15 @@
 import React from "react";
 import Homepage from "./Homepage"
-import Input from "./Input"
+import LoginForm from "./LoginForm";
 
-var b = false;
+
+var isUserRegistered = false;
 
 function Login(){
     return (
-        <div className={"loginContainer"}>
-            <form className={"loginForm"}>
-                <Input 
-                    type={"text"}
-                    placeholder={"Username"}
-                />
-                <Input
-                    type={"password"}
-                    placeholder={"Password"}
-                />
-                <button type={"submit"}><h1>Login</h1></button>
-            </form>
+        <div className={"login"}>
+            <LoginForm isRegistered={isUserRegistered}/>
         </div>
-    );
+    )
 }
-
 export default Login;
