@@ -47,11 +47,14 @@ html {
     word-wrap: break-word;
     white-space: pre-wrap;
 }
+.login h1 {
+    text-align: center;    
+}
 .loginFormContainer {
     width: 100%;
     text-align: center;
-    margin: 10% auto;
-    padding: 80px 0;
+    margin: auto;
+    padding: 40px 0;
 }
 .loginForm {
     background-color: cadetblue;
@@ -69,10 +72,16 @@ html {
 .loginForm button {
     width: 250px;
     height: 40px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
     border-radius: 5px;
-    background-color: lightgrey;
 }
 .loginForm h1 {
     font-weight: 200;
     font-size: 1.2rem;
+}
+.doorman {
+    margin-top: 10%;
+    text-align: center;
 }
