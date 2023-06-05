@@ -27,98 +27,102 @@ html {
     font-family: "Mclaren", sans-serif;
     background-color: darkseagreen;
     width: 240px;
-    /*height: 180px;*/
     margin: 20px;
+    padding: 5px 5px 5px 5px;
     border-radius: 10px;
     float: left;
     box-shadow: 2px 2px 5px lightgrey;
 }
-.note dl {
-    text-align: center;
-    margin: 10px;
+.note h1 {
+    font-size: 1rem;
 }
-.note dt {
-    background-color: greenyellow;
-    border-radius: 10px;
+.note p {
+    
 }
-.note dd {
-    margin: 10px;
-    color: black;
-    word-wrap: break-word;
-    white-space: pre-wrap;
+.note button {
+    margin-left: 180px;
 }
 .doorman {
     margin-top: 10%;
     text-align: center;
 }
 .createNote {
-    width: 300px;
-    height: 150px;
-    background-color: indianred;
-    position: relative;
-    margin: 5px auto;
-    text-align: center;
-    display: block;
-    word-wrap: break-word;
-    overflow: scroll;
-    scrollbar-color: rgba(0,0,0,0.5) transparent;
+    font-family: "Mclaren", sans-serif;
+    background-color: darkseagreen;
+    width: 240px;
+    margin: 20px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    /*float: left;*/
+    box-shadow: 2px 2px 5px lightgrey;
+    
+    /*position: relative;*/
+    /*margin: 5px;*/
+    /*word-wrap: break-word;*/
+    /*overflow: scroll;*/
+    /*scrollbar-color: rgba(0,0,0,0.5) transparent;*/
 }
 .createNote input {
-    position: relative;
-    text-align: center;
     width: 100%;
-    margin: 10px 0 10px 0;
+    margin: 10px 0 10px 0;   
+    font-size: 1rem;
+    border: none;
+    background-color: darkseagreen;
+    color: black;
     
 }
-.createNote::-webkit-scrollbar {
-    width: 8px; /* Set the width of the scrollbar */
+.createNote input::placeholder {
+    color: dimgrey;
 }
-
-.createNote::-webkit-scrollbar-track {
-    background-color: transparent; /* Set the background color of the track */
-}
-
-.createNote::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.5); /* Set the color of the thumb */
-}
-
-
-
-
-
-
-
-.login h1 {
-    text-align: center;
-}
-.loginFormContainer {
+.createNote textarea {
     width: 100%;
-    text-align: center;
-    margin: auto;
-    padding: 40px 0;
+    border: none;
+    background-color: darkseagreen;
+    color: black;
 }
-.loginForm {
-    background-color: cadetblue;
-    padding: 20px;
+.createNote textarea::placeholder {
+    color: dimgrey;
 }
-.loginForm input {
-    width: 250px;
-    height: 40px;
-    margin: 0 auto 10px auto;
-    display: block;
-    text-align: center;
-    border-radius: 5px;
-    r;
+.createNote button {
+    margin-left: 193px;
 }
-.loginForm button {
-    width: 250px;
-    height: 40px;
-    margin: 0 auto 10px auto;
-    display: block;
-    text-align: center;
-    border-radius: 5px;
-}
-.loginForm h1 {
-    font-weight: 200;
-    font-size: 1.2rem;
-}
+
+
+
+
+
+
+/*.login h1 {*/
+/*    text-align: center;*/
+/*}*/
+/*.loginFormContainer {*/
+/*    width: 100%;*/
+/*    text-align: center;*/
+/*    margin: auto;*/
+/*    padding: 40px 0;*/
+/*}*/
+/*.loginForm {*/
+/*    background-color: cadetblue;*/
+/*    padding: 20px;*/
+/*}*/
+/*.loginForm input {*/
+/*    width: 250px;*/
+/*    height: 40px;*/
+/*    margin: 0 auto 10px auto;*/
+/*    display: block;*/
+/*    text-align: center;*/
+/*    border-radius: 5px;*/
+/*    r;*/
+/*}*/
+/*.loginForm button {*/
+/*    width: 250px;*/
+/*    height: 40px;*/
+/*    margin: 0 auto 10px auto;*/
+/*    display: block;*/
+/*    text-align: center;*/
+/*    border-radius: 5px;*/
+/*}*/
+/*.loginForm h1 {*/
+/*    font-weight: 200;*/
+/*    font-size: 1.2rem;*/
+/*}*/
