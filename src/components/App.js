@@ -24,9 +24,12 @@ function App() {
     return (
         <div>
             <Header />
-            <CreateNote />
+            
+            <CreateNote onAdd={addNote} />
+            <br/>
+            <hr/>
+            <br/>
             {stickyNotes.map((note, index) => {
-                console.log(note);
                 return (
                     <Note
                         key={index}

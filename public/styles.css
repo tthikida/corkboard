@@ -40,7 +40,7 @@ html {
     
 }
 .note button {
-    margin-left: 180px;
+    margin-left: 4px;
 }
 .doorman {
     margin-top: 10%;
@@ -53,23 +53,16 @@ html {
     margin: 20px;
     padding: 5px 5px 5px 5px;
     border-radius: 10px;
-    /*float: left;*/
     box-shadow: 2px 2px 5px lightgrey;
-    
-    /*position: relative;*/
-    /*margin: 5px;*/
-    /*word-wrap: break-word;*/
-    /*overflow: scroll;*/
-    /*scrollbar-color: rgba(0,0,0,0.5) transparent;*/
 }
 .createNote input {
     width: 100%;
-    margin: 10px 0 10px 0;   
+    margin: 10px 0 10px 0;
     font-size: 1rem;
     border: none;
     background-color: darkseagreen;
     color: black;
-    
+    outline: none;
 }
 .createNote input::placeholder {
     color: dimgrey;
@@ -79,14 +72,16 @@ html {
     border: none;
     background-color: darkseagreen;
     color: black;
+    outline: none;
+    resize: none;
 }
 .createNote textarea::placeholder {
     color: dimgrey;
+    
 }
 .createNote button {
     margin-left: 193px;
 }
-
 
 
 
