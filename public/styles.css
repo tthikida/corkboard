@@ -5,6 +5,8 @@
 html {
     font-family: "Montserrat", sans-serif;
     background-color: cadetblue;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+
 }
 .header {
     font-family: "Mclaren", sans-serif;
