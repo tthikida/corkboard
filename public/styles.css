@@ -35,12 +35,15 @@ html {
 }
 .note h1 {
     font-size: 1rem;
+    padding: 5px;
 }
 .note p {
-    
+    padding: 5px;
+    word-wrap: break-word;
+    font-size: 0.7rem;
 }
-.note button {
-    margin-left: 4px;
+.deleteButton {
+    margin: 7px;
 }
 .doorman {
     margin-top: 10%;
@@ -63,6 +66,7 @@ html {
     background-color: darkseagreen;
     color: black;
     outline: none;
+    word-wrap: break-word;
 }
 .createNote input::placeholder {
     color: dimgrey;
@@ -77,7 +81,6 @@ html {
 }
 .createNote textarea::placeholder {
     color: dimgrey;
-    
 }
 .createNote button {
     margin-left: 193px;

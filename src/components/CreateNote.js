@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import AddIcon from '@mui/icons-material/Add';
 
 function CreateNote(props) {
     const [extended, setExtended] = useState(false);
@@ -62,7 +63,8 @@ function CreateNote(props) {
                     onClick={handleTextAreaClick}
                     onChange={handleChange}
                 />
-                <button type={"submit"} onClick={submitNote}>Add</button>
+                {/*<button type={"submit"} onClick={submitNote}>Add</button>*/}
+                <AddIcon type={"submit"} onClick={submitNote} />
             </form>
         </div>
     )
